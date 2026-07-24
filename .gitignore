@@ -1,0 +1,70 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML / model artifacts (large binaries — upload via Git LFS or external link)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.ckpt
+*.safetensors
+*.bin
+!voice_model/.gitkeep
+
+# Arduino / PlatformIO build outputs
+arduino/.pio/
+arduino/.vscode/
+*.elf
+*.hex
+*.eep
+*.map
+
+# Generated figures / temp outputs
+scripts/output/
+scripts/outputs/
+*.tmp
+*.log
+
+# Secrets & credentials
+secrets/
+credentials.json
+*.pem
+*.key
