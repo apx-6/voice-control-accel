@@ -4,7 +4,6 @@ Thumbs.db
 Desktop.ini
 
 # Editors / IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -14,7 +13,6 @@ Desktop.ini
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
 .venv/
 venv/
@@ -29,41 +27,16 @@ ENV/
 .ruff_cache/
 .coverage
 htmlcov/
-dist/
-build/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# ML / model artifacts (large binaries — upload via Git LFS or external link)
-*.pt
-*.pth
-*.onnx
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.joblib
-*.ckpt
-*.safetensors
-*.bin
-!voice_model/.gitkeep
-
-# Arduino / PlatformIO build outputs
+# Local build / cache only (keep source and small model files trackable)
 arduino/.pio/
-arduino/.vscode/
-*.elf
-*.hex
-*.eep
-*.map
-
-# Generated figures / temp outputs
-scripts/output/
-scripts/outputs/
 *.tmp
 *.log
 
-# Secrets & credentials
+# Secrets
 secrets/
 credentials.json
 *.pem
