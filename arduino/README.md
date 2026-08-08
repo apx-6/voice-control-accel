@@ -1,11 +1,13 @@
 # Arduino
 
-放置硬件控制相关源码（`.ino` / PlatformIO 工程等）。
+硬件控制相关源码。
 
-## 建议内容
+## 文件
 
-- 主程序与模块拆分
-- 引脚 / 波特率说明
-- 与上位机（声控 / PC）的通信协议简述
+- control/control.ino：ADXL345 刹车与跌倒检测主程序
 
-代码到位后，在此补充编译与烧录步骤。
+## 编译与烧录
+
+1. 用 Arduino IDE 打开 control/control.ino
+2. 安装库：Adafruit ADXL345、Adafruit Unified Sensor
+3. 选择开发板与端口后编译烧录
